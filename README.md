@@ -37,7 +37,7 @@ Use [uptimerobot.com](https://uptimerobot.com) to make your repl online 24/7.
 
 </br>
 
-> ⭐ Feel free to leave a ❤️ if this helped you! ;)
+> ❤️ Feel free to leave a ⭐ if this helped you! ;)
 
 ----
 
