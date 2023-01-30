@@ -11,7 +11,9 @@ Official: https://replit.com/@Felosi/Felosi-SelfBot?v=1
 
 A Code written in Python who keep your account 24/7.
 
-The [main.py](https://replit.com/@Felosi/selfbot#main.py) is the main file. [keep_alive.py](https://replit.com/@Felosi/selfbot#keep_alive.py) prevents your repl from going to sleep. 
+Put your informations in `config.json` and after put your token in Secrets. If you don't know how to have your token go on youtube.
+
+The [main.py](https://replit.com/@Felosi/Felosi-SelfBot#main.py) is the main file. [keep_alive.py](https://replit.com/@Felosi/Felosi-SelfBot#keep_alive.py) prevents your repl from going to sleep. 
 
 </br>
 Complete this to start the self bot and dont forget to put your token in the secret environnement
@@ -37,7 +39,7 @@ Use [uptimerobot.com](https://uptimerobot.com) to make your repl online 24/7.
 
 </br>
 
-> ❤️ Feel free to leave a ⭐ if this helped you! ;)
+> ⭐ Feel free to leave a ❤️ if this helped you! ;)
 
 ----
 
