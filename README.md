@@ -5,6 +5,11 @@ Make your Discord Account Online 24/7, Stream on your profile and more!
 
 Official: https://replit.com/@Felosi/Felosi-SelfBot?v=1
 
+<p align="center">
+	<a href="https://discord.gg/fMxqduGqyb" target="_blank">
+    	<img src="https://img.shields.io/badge/Version-1.0.0-7DCDE3?style=for-the-badge" alt="Version">
+</p>
+
 ----
 
 ![](https://cdn.discordapp.com/attachments/982742876301688874/999503435936305152/standard.gif)
@@ -36,7 +41,7 @@ Use [uptimerobot.com](https://uptimerobot.com) to make your repl online 24/7.
 🔰 **I'm not responsible for what you do with the selfbot or if your account is banned from Discord**
 
 ![](https://cdn.discordapp.com/attachments/982742876301688874/999503435936305152/standard.gif)
-
+    
 </br>
 
 > ⭐ Feel free to leave a ❤️ if this helped you! ;)
