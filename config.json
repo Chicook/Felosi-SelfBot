@@ -1,6 +1,6 @@
 {
-    "password": "bob",
-    "prefix": "X ",
+    "password": "YOUR-PASSWORD",
+    "prefix": "YOUR-PREFIX",
     "nitro_sniper": true, 
     "giveaway_sniper": true,
     "stream_url": "https://twitch.tv/discord",
