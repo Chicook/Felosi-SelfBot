@@ -21,7 +21,6 @@ Put your informations in `config.json` and after put your token in Secrets. If y
 The [main.py](https://replit.com/@Felosi/Felosi-SelfBot#main.py) is the main file. [keep_alive.py](https://replit.com/@Felosi/Felosi-SelfBot#keep_alive.py) prevents your repl from going to sleep. 
 
 </br>
-Complete this to start the self bot and dont forget to put your token in the secret environnement
 
 
     "password": "YOUR-PASSWORD",
