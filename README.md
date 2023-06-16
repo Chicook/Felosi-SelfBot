@@ -3,24 +3,20 @@ Make your Discord Account Online 24/7, Stream on your profile and more!
 
 ⚠️ For educational purposes only.⚠️
 
-Official: https://replit.com/@Felosi/Felosi-SelfBot?v=1
-
-<p align="center">
-	<a href="https://discord.gg/fMxqduGqyb" target="_blank">
-    	<img src="https://img.shields.io/badge/Version-1.0.0-7DCDE3?style=for-the-badge" alt="Version">
-</p>
+Official: https://replit.com/@FelosiDev/Felosi-SelfBot?v=1
 
 ----
 
-![](https://cdn.discordapp.com/attachments/982742876301688874/999503435936305152/standard.gif)
+![](https://cdn.discordapp.com/attachments/1117800455909691515/1119105039491932171/standard.gif)
 
 A Code written in Python who keep your account 24/7.
 
 Put your informations in `config.json` and after put your token in Secrets. If you don't know how to have your token go on youtube.
 
-The [main.py](https://replit.com/@Felosi/Felosi-SelfBot#main.py) is the main file. [keep_alive.py](https://replit.com/@Felosi/Felosi-SelfBot#keep_alive.py) prevents your repl from going to sleep. 
+The [main.py](https://replit.com/@FelosiDev/Felosi-SelfBot#main.py) is the main file. [keep_alive.py](https://replit.com/@FelosiDev/Felosi-SelfBot#keep_alive.py) prevents your repl from going to sleep. 
 
 </br>
+Complete this to start the self bot and dont forget to put your token in the secret environnement
 
 
     "password": "YOUR-PASSWORD",
@@ -39,8 +35,7 @@ Use [uptimerobot.com](https://uptimerobot.com) to make your repl online 24/7.
 
 🔰 **I'm not responsible for what you do with the selfbot or if your account is banned from Discord**
 
-![](https://cdn.discordapp.com/attachments/982742876301688874/999503435936305152/standard.gif)
-    
+
 </br>
 
 > ⭐ Feel free to leave a ❤️ if this helped you! ;)
@@ -48,3 +43,5 @@ Use [uptimerobot.com](https://uptimerobot.com) to make your repl online 24/7.
 ----
 
 > Felosi SelfBot © 2022 by Felosi.
+
+
