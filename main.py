@@ -446,28 +446,6 @@ async def hack(ctx, user: discord.Member = None):
         )
 
 
-@Felosi.command(aliases=["copyguild", "copyserver"])
-async def copy(ctx):  # b'\xfc'
-    await ctx.message.delete()
-    await Felosi.create_guild(f'backup-{ctx.guild.name}')
-    await asyncio.sleep(4)
-    for g in Felosi.guilds:
-        if f'backup-{ctx.guild.name}' in g.name:
-            for c in g.channels:
-                await c.delete()
-            for cate in ctx.guild.categories:
-                x = await g.create_category(f"{cate.name}")
-                for chann in cate.channels:
-                    if isinstance(chann, discord.VoiceChannel):
-                        await x.create_voice_channel(f"{chann}")
-                    if isinstance(chann, discord.TextChannel):
-                        await x.create_text_channel(f"{chann}")
-    try:
-        await g.edit(icon=ctx.guild.icon_url)
-    except:
-        pass
-
-
 
 @Felosi.command(
     name='first-message', aliases=['firstmsg', 'fm', 'firstmessage'])
@@ -555,7 +533,6 @@ async def cum(ctx):
              :trumpet:      :eggplant:                 :sweat_drops:
      ''')
 
-    
 @Felosi.command(aliases=["fakename"])
 async def genname(ctx):
     await ctx.message.delete()
@@ -564,7 +541,6 @@ async def genname(ctx):
     second = second.display_name[:len(second.display_name) // 2]
     await ctx.send(discord.utils.escape_mentions(second + first))
 
-    
 
 @Felosi.command()
 async def pingweb(ctx, website=None):
@@ -582,7 +558,6 @@ async def pingweb(ctx, website=None):
             await ctx.send(f'Website is operational ({r})', delete_after=3)
 
 
-            
 @Felosi.command()
 async def token(ctx, user: discord.Member = None):
     await ctx.message.delete()
@@ -602,7 +577,6 @@ async def token(ctx, user: discord.Member = None):
         await ctx.send(user.mention + "'s token is " + "".join(token))
 
 
-        
 @Felosi.command(name='1337speak', aliases=['leetspeak'])
 async def _1337_speak(ctx, *, text):
     await ctx.message.delete()
@@ -612,7 +586,6 @@ async def _1337_speak(ctx, *, text):
     await ctx.send(f'{text}')
 
 
-    
 @Felosi.command(aliases=['dong', 'penis'])
 async def dick(ctx, *, user: discord.Member = None):
     await ctx.message.delete()
@@ -635,8 +608,6 @@ async def poll(ctx):
     await message.add_reaction('🅰')
     await message.add_reaction('🅱')
 
-    
-    
 @Felosi.command()
 async def abc(ctx):
     await ctx.message.delete()
@@ -651,7 +622,6 @@ async def abc(ctx):
         await asyncio.sleep(2)
   
 
-
 @Felosi.command(aliases=['bitcoin'])
 async def btc(ctx):
     await ctx.message.delete()
@@ -662,7 +632,6 @@ async def btc(ctx):
     eur = r['EUR']
     await ctx.send(f'BITCOIN USD: `{str(usd)}$`\nBITCOIN EUR: `{str(eur)}€`')
 
-    
 
 @Felosi.command()
 async def purge(ctx, amount: int):
@@ -674,7 +643,6 @@ async def purge(ctx, amount: int):
         except:
             pass
 
-        
 
 @Felosi.command(aliases=[
     "stopstreaming", "stopstatus"
@@ -683,7 +651,6 @@ async def stopactivity(ctx):
     await ctx.message.delete()
     await Felosi.change_presence(activity=None, status=discord.Status.dnd)
 
-    
 
 @Felosi.command()
 async def lenny(ctx):
@@ -693,8 +660,9 @@ async def lenny(ctx):
 
 
 
+      
 #---------------END------------------
 
 keep_alive.keep_alive()
 if __name__ == '__main__':
-    Init() 
+    Init()
